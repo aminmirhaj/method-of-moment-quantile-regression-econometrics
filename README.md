@@ -45,7 +45,7 @@ How are FDI and productive capacity related to resource sustainability across co
 | PR | Political Risk | Control variable |
 | GDP | GDP per capita | Control variable |
 
-## 4. Data Preparation and Econometric Methodology
+## 4. Data and Empirical Methodology
 
 The following workflow summarizes the main stages of the empirical analysis, from data collection and preparation to econometric estimation and interpretation.
 
@@ -181,8 +181,6 @@ This approach provides a more detailed understanding of how FDI, productive capa
 
 *Investigating the Impact of Foreign Direct Investment and Productive Capacity on Resource Sustainability: Method of Moments Quantile Regression and Club Convergence*
 
-|  |  |
-|---|---|
 | **Author** | Amin Mirhaj |
 | **Degree** | M.Sc. in Economics |
 | **University** | Ferdowsi University |
