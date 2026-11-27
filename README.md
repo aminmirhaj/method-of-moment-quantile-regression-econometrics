@@ -27,6 +27,8 @@ The project involves:
 - Country-risk and macroeconomic analysis
 - Quantitative research and interpretation
 
+📄 **[Read the Full Master's Thesis](thesis/full-thesis.pdf)**
+
 ## 2. Research Question
 
 How are FDI and productive capacity related to resource sustainability across countries, and do these relationships differ depending on country-risk levels, convergence patterns, and material footprint?
