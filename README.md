@@ -1,336 +1,186 @@
-# The Impact of Economic Risk, Financial Risk, and Political Risk on Resource Sustainability  
-### Method of Moments Quantile Regression and Club Convergence
+# The Impact of Foreign Direct Investment and Productive Capacity on Resource Sustainability
 
-<p align="center">
-  <em></em><br>
-  <em>Thesis Title</em><br>
-  <em>Investigating the Impact of Foreign Direct Investment and Productive Capacity on Resource Sustainability</em><br>
-</p>
+## A Cross-Country Panel Econometric Analysis Incorporating Economic, Financial, and Political Risk Factors
 
 <p align="center">
 
-![Method1](https://img.shields.io/badge/Method%201-Moment%20Quantile%20Regression-d1242f)
-![Method2](https://img.shields.io/badge/Method%202-Club%20Convergance-1f6feb)
-![Period](https://img.shields.io/badge/Period-2000%E2%80%932021-2ea043)
-![Countries](https://img.shields.io/badge/Countries-111-8250df)
-
+![Research](https://img.shields.io/badge/Research-Applied%20Econometrics-blue)
+![Methods](https://img.shields.io/badge/Methods-Panel%20Data%20%7C%20MMQR%20%7C%20Club%20Convergence-green)
+![Coverage](https://img.shields.io/badge/Countries-111-purple)
+![Period](https://img.shields.io/badge/Period-2000--2021-orange)
 
 </p>
 
 ---
 
-## 📖 About the Thesis
+## 1. Project Overview
 
-This repository contains the research materials, empirical analysis, methodology, and thesis document for an **M.Sc. thesis in Economics** investigating the relationship between **Foreign Direct Investment**, **Productive Capacity**, **Economic Risk**, **Financial Risk**, **Political Risk**, and **Resource Sustainability**.
+This repository presents my Master's thesis research in Economics, investigating the relationship between **Foreign Direct Investment (FDI)**, **Productive Capacity (PCI)**, and **Resource Sustainability**, while accounting for **Economic Risk, Financial Risk, and Political Risk**.
 
-The empirical study examines **111 countries over the period 2000–2021** and focuses on whether economic activity and investment contribute to or undermine resource sustainability.
+The empirical analysis covers **111 countries over the period 2000–2021**. Material Footprint per capita is used as the main indicator of resource use and as the empirical measure of resource sustainability.
 
-Rather than estimating only an average relationship across countries, the study combines two complementary approaches:
+The study applies advanced panel econometric techniques to investigate cross-country differences, long-run convergence patterns, and heterogeneous effects across the distribution of material footprint.
 
-> **Club Convergence** identifies groups of countries that exhibit similar long-run patterns of resource sustainability, while **Method of Moments Quantile Regression (MMQR)** estimates heterogeneous effects across different levels of resource consumption.
+The project demonstrates practical experience in:
 
-The analysis incorporates:
+- Applied econometrics and quantitative economic research
+- Panel data analysis and econometric diagnostics
+- Data collection, cleaning, integration, and variable construction
+- Country-risk indicators and macroeconomic analysis
+- Distributional econometric modelling
+- Statistical interpretation and research communication
 
-- Foreign Direct Investment (**FDI**)
-- Productive Capacity (**PCI**)
-- Economic Risk (**ER**)
-- Financial Risk (**FR**)
-- Political Risk (**PR**)
-- Gross Domestic Product per capita (**GDP**)
-- Material Footprint per capita (**MFP**)
+## 2. Research Question
 
----
+**How do Foreign Direct Investment and Productive Capacity affect Resource Sustainability, and how do these relationships vary across countries with different convergence patterns and levels of material footprint, after accounting for economic, financial, and political risks?**
 
-# 🎯 Research Question
+The research examines whether the relationships between investment, productive capacity, country risk, and resource consumption are homogeneous across countries or differ according to their long-run convergence patterns and distributional characteristics.
 
-The central research problem can be summarized as:
+## 3. Research Variables
 
-> **How do Foreign Direct Investment and Productive Capacity affect Resource Sustainability, and do these effects differ across countries with different levels of resource consumption and risk?**
+| Variable | Description | Role |
+|---|---|---|
+| MFP | Material Footprint per capita | Dependent variable |
+| FDI | Foreign Direct Investment | Main explanatory variable |
+| PCI | Productive Capacity Index | Main explanatory variable |
+| ER | Economic Risk | Control variable |
+| FR | Financial Risk | Control variable |
+| PR | Political Risk | Control variable |
+| GDP | GDP per capita | Control variable |
 
-The study addresses this by combining **cross-country heterogeneity**, **convergence behavior**, and **distributional econometric analysis**.
+**Risk analysis dimension:** Economic, financial, and political risk indicators are incorporated to account for differences in national economic and institutional conditions when estimating the relationships of interest.
 
----
+## 4. Data Sources
 
-## 🎓 Thesis Information
+The empirical dataset combines information from the following international databases:
 
-| | |
+| Data source | Main information |
 |---|---|
-| **Author** | Amin Mirhaj |
-| **Degree** | M.Sc. in Economics |
-| **University** | Ferdowsi University |
-| **Supervisor** | Dr. Narges Salehnia |
-| **Advisor** | Dr. Fariba Osmani |
-| **Published Year** | 2024 |
+| Global Material Flows Database (GMFD) | Material Footprint |
+| UNCTAD | Foreign Direct Investment and Productive Capacity |
+| International Country Risk Guide (ICRG) | Economic, Financial, and Political Risk |
+| World Development Indicators (WDI) | GDP and macroeconomic indicators |
 
-### 📄 Full Thesis
+The analysis uses country-level panel data covering 111 countries from 2000 to 2021.
 
-**[View Full Thesis →](https://github.com/aminmirhaj/master-thesis-quantitative-econometrics/blob/main/thesis/full-thesis.pdf)**
+## 5. Econometric Methodology
 
----
+The empirical strategy combines panel-data diagnostics, convergence analysis, and distributional regression.
 
-# 🗂️ Repository Structure
+### 5.1. Panel Data Diagnostics
 
-```text
-master-thesis-quantitative-econometrics/
-│
-├── 📄 README.md
-│
-├── 📚 thesis/
-│   └── thesis.pdf ???
-│
-├── 📊 data/
-│   ├── raw/
-│   ├── processed/
-│   └── README.md
-│
-├── 💻 code/
-│   ├── python/
-│   └── stata/
-│
-├── 📓 notebooks/
-│   ├── 01_data_preparation.ipynb
-│   ├── 02_club_convergence_with_r.ipynb
-│   ├── 03_club01_stata_commands_and_methodology.ipynb
-│   └── 04_club02_stata_commands_and_methodology.ipynb
-│
-├── 📈 results/
-│   ├── tables/
-│   └── figures/
-│
-└── 📑 docs/
-    ├── data_sources.md
-    ├── methodology.md
-    └── variable_dictionary.md
-```
+Before estimating the main models, the study applies panel econometric diagnostic procedures to assess the properties of the dataset and the suitability of the estimation strategy.
 
----
+The diagnostic framework includes:
 
-# 🧭 Research at a Glance
+- Cross-sectional dependence testing
+- Slope heterogeneity testing
+- Panel unit-root testing
+- Panel cointegration analysis
+- Additional specification and statistical diagnostics
 
-```mermaid
-flowchart LR
-    A["🌍 111 Countries<br/>2000–2021"]
-    B["📦 Resource Sustainability<br/>Material Footprint per Capita"]
-    C["💰 Foreign Direct Investment<br/>FDI"]
-    D["🏭 Productive Capacity<br/>PCI"]
-    E["⚠️ Country Risk"]
-    F["📈 GDP per Capita"]
+### 5.2. Club Convergence Analysis
 
-    E --> E1["Economic Risk"]
-    E --> E2["Financial Risk"]
-    E --> E3["Political Risk"]
+Following the Club Convergence framework of Phillips and Sul (2007), the study investigates whether countries share a common long-run convergence path in resource sustainability.
 
-    A --> B
-    C --> B
-    D --> B
-    E1 --> B
-    E2 --> B
-    E3 --> B
-    F --> B
+Rather than imposing a single convergence pattern on all countries, the approach identifies groups of countries with similar transition and convergence behaviour.
 
-    B --> G["🔬 Empirical Analysis"]
+The final empirical analysis distinguishes two convergence clubs:
 
-    G --> H["Club Convergence"]
-    G --> I["MMQR"]
-
-    H --> J["Identify Convergence Clubs"]
-    J --> I
-
-    I --> K["Quantile-Specific Effects"]
-    K --> L["📊 Results & Policy Implications"]
-```
-
----
-
-# 🔬 Research Methodology
-
-The empirical workflow follows a sequential design:
-
-```mermaid
-flowchart TD
-
-    A["01 · Data Collection"] --> B["02 · Data Cleaning & Integration"]
-    B --> C["03 · Variable Construction"]
-    C --> D["04 · Exploratory Analysis"]
-    D --> E["05 · Panel Diagnostics"]
-
-    E --> E1["Cross-Sectional Dependence"]
-    E --> E2["Slope Heterogeneity"]
-    E --> E3["Panel Unit Root"]
-    E --> E4["Panel Cointegration"]
-
-    E1 --> F["06 · Club Convergence"]
-    E2 --> F
-    E3 --> F
-    E4 --> F
-
-    F --> G["Identify Convergence Clubs"]
-
-    G --> H["07 · MMQR Estimation"]
-
-    H --> H1["Q10"]
-    H --> H2["Q25"]
-    H --> H3["Q50"]
-    H --> H4["Q75"]
-    H --> H5["Q90"]
-
-    H1 --> I["Distributional Effects"]
-    H2 --> I
-    H3 --> I
-    H4 --> I
-    H5 --> I
-
-    I --> J["08 · Robustness Analysis"]
-    J --> K["09 · Results & Visualization"]
-    K --> L["10 · Economic & Policy Interpretation"]
-```
-
----
-
-# 🌍 Method 1 — Club Convergence
-
-A key feature of the research is the use of **Club Convergence**.
-
-Instead of assuming that all 111 countries follow the same long-run trajectory, countries are grouped according to their convergence behavior in resource sustainability.
-
-```mermaid
-flowchart TD
-
-    A["🌍 111 Countries"] --> B["Club Convergence Analysis"]
-
-    B --> C["Convergence Structure"]
-
-    C --> D["🔵 Club 1<br/>67 Countries"]
-    C --> E["🟣 Club 2<br/>44 Countries"]
-
-    D --> F["Club-Specific Analysis"]
-    E --> F
-
-    F --> G["MMQR Estimation"]
-```
-
-### Identified structure
-
-| Convergence Club | Number of Countries |
+| Convergence group | Number of countries |
 |---|---:|
-| **Club 1** | 67 |
-| **Club 2** | 44 |
+| Club 1 | 67 |
+| Club 2 | 44 |
 | **Total** | **111** |
 
-The resulting clubs are then analyzed separately in order to capture differences in the underlying country groups.
+The identified groups are subsequently analysed separately to account for cross-country heterogeneity.
+
+### 5.3. Method of Moments Quantile Regression (MMQR)
+
+The study applies the Method of Moments Quantile Regression developed by Machado and Silva (2019).
+
+Unlike conventional mean regression, MMQR allows the estimated relationships to vary across different points of the conditional distribution of Material Footprint per capita.
+
+The analysis examines the following quantiles:
+
+**Q25 · Q50 · Q75 · Q90**
+
+This approach provides a more detailed understanding of how FDI, productive capacity, and country-risk indicators relate to resource consumption at different distributional levels.
+
+### 5.4. Robustness Analysis
+
+The research also includes a robustness exercise examining the stability of the estimated relationships when financial and political risk controls are excluded from the specification.
 
 ---
 
-# 📐 Method 2 — Method of Moments Quantile Regression
+## 6. Analytical Workflow
 
-The main econometric technique is **Method of Moments Quantile Regression (MMQR)**.
+The empirical research follows a structured analytical process:
 
-Unlike conventional mean regression, MMQR allows the analysis to examine relationships at different points of the conditional distribution of Material Footprint per capita.
+1. Data collection from international databases.
+2. Data cleaning, integration, and preparation of the country-level panel.
+3. Variable definition and construction.
+4. Exploratory and descriptive analysis.
+5. Panel-data diagnostic testing.
+6. Club Convergence estimation and country grouping.
+7. Club-specific MMQR estimation.
+8. Robustness analysis.
+9. Results interpretation and visualization.
+10. Economic and policy implications.
 
-```mermaid
-flowchart TB
+## 7. Main Empirical Findings
 
-    A["Conditional Distribution<br/>of Material Footprint per Capita"]
+The main findings reported in the thesis include:
 
-    A --> Q10["Q10<br/>Lower MFP"]
-    A --> Q25["Q25"]
-    A --> Q50["Q50<br/>Median"]
-    A --> Q75["Q75"]
-    A --> Q90["Q90<br/>Higher MFP"]
+- **Foreign Direct Investment:** Positively and significantly associated with Material Footprint per capita in both convergence clubs.
+- **Productive Capacity:** Positively associated with Material Footprint per capita in both clubs, indicating a relationship between productive capacity and higher material resource use.
+- **Country Risk:** Economic, financial, and political risk indicators are incorporated as controls to account for differences in country-level conditions.
+- **Cross-country heterogeneity:** The estimated relationships differ between the two convergence clubs and across the conditional distribution.
 
-    Q10 --> M["MMQR"]
-    Q25 --> M
-    Q50 --> M
-    Q75 --> M
-    Q90 --> M
+These findings highlight the importance of considering country heterogeneity and distributional differences when studying the economic determinants of resource consumption.
 
-    M --> R["Heterogeneous<br/>Distributional Effects"]
-```
+## 8. Technical Skills Demonstrated
 
-### Quantiles examined
+This project demonstrates several technical competencies relevant to data science, data analysis, and quantitative research.
 
-**Q10 · Q25 · Q50 · Q75 · Q90**
-
-This allows the research to ask a more detailed question:
-
-> Do FDI, productive capacity, risk, and GDP have the same relationship with resource consumption across the distribution?
-
----
-
-# 📈 What Makes the Empirical Strategy Different?
-
-The research combines **three dimensions of heterogeneity**:
-
-```mermaid
-flowchart LR
-
-    A["Country Heterogeneity"]
-    B["Long-Run Convergence"]
-    C["Distributional Heterogeneity"]
-
-    A --> D["More Detailed<br/>Empirical Analysis"]
-    B --> D
-    C --> D
-
-    D --> E["Resource Sustainability"]
-```
-
-### 1. Country heterogeneity
-
-Countries are not assumed to behave identically.
-
-### 2. Convergence heterogeneity
-
-Countries are grouped into convergence clubs based on their long-run resource-sustainability patterns.
-
-### 3. Distributional heterogeneity
-
-MMQR evaluates effects at different quantiles rather than only estimating an average effect.
-
-Together, these approaches provide a more granular empirical framework for studying resource sustainability.
-
----
-
-# 🗃️ Data Sources
-
-The thesis integrates information from several major databases:
-
-| Source | Main Contribution |
+| Area | Demonstrated competencies |
 |---|---|
-| **Global Material Flows Database (GMFD)** | Material Footprint |
-| **UNCTAD** | Foreign Direct Investment / Productive Capacity |
-| **International Country Risk Guide (ICRG)** | Country Risk |
-| **World Development Indicators (WDI)** | GDP and macroeconomic indicators |
+| Data Analysis | Data preparation, cleaning, integration, variable construction, descriptive analysis |
+| Econometrics | Panel data modelling, MMQR, Club Convergence, robustness analysis |
+| Risk Analysis | Economic risk, financial risk, political risk indicators, country-level risk controls |
+| Statistical Analysis | Cross-sectional dependence, slope heterogeneity, stationarity, cointegration |
+| Quantitative Research | Research design, hypothesis testing, model interpretation, empirical reporting |
+| Data Visualization | Presentation and interpretation of empirical results |
+
+### Tools and Software
+
+- **R** — Statistical and econometric analysis
+- **Stata** — Panel-data estimation and econometric modelling
+
+Python-related code is included only where documented in the research materials; it is not presented as the primary implementation of the thesis methodology.
+
+## 9. Academic Reference
+
+**Thesis title:** Investigating the Impact of Foreign Direct Investment and Productive Capacity on Resource Sustainability: Method of Moments Quantile Regression and Club Convergence.
+
+**Degree:** M.Sc. in Economics  
+**University:** Ferdowsi University  
+**Year:** 2024
+
+📄 **[Read the Full Master's Thesis](thesis/full-thesis.pdf)**
 
 ---
 
-# 📝 Methodological Summary
+## 10. Research Scope and Limitations
 
-| Stage | Method / Component | Purpose |
-|---|---|---|
-| **1** | Data collection | Construct the country-level panel |
-| **2** | Data cleaning & integration | Prepare consistent empirical data |
-| **3** | Variable construction | Define MFP, FDI, PCI, risk variables and GDP |
-| **4** | Exploratory analysis | Understand the data |
-| **5** | Panel diagnostics | Assess dependence, heterogeneity, stationarity and long-run relationships |
-| **6** | Club Convergence | Identify groups with similar long-run patterns |
-| **7** | MMQR | Estimate heterogeneous distributional effects |
-| **8** | Robustness analysis | Assess the stability of findings |
-| **9** | Visualization | Present empirical evidence |
-| **10** | Interpretation | Derive economic and policy implications |
+This project is an applied cross-country econometric study. Its objective is to estimate and interpret relationships between macroeconomic variables, country-risk indicators, and resource consumption.
 
----
-
-# 🔑 Keywords
-
-`Resource Sustainability` · `Foreign Direct Investment` · `Productive Capacity` · `Economic Risk` · `Financial Risk` · `Political Risk` · `Panel Data` · `Club Convergence` · `Method of Moments Quantile Regression`
+The empirical results should be interpreted within the scope of the dataset, model specifications, and econometric methods used in the thesis. The analysis is not a credit-risk scoring system, a causal machine-learning model, or a predictive risk classification system.
 
 ---
 
 <p align="center">
-  <em>https://github.com/aminmirhaj/master-thesis-quantitative-econometrics</em>
-</p>
 
-<p align="center">
-  <a href="https://github.com/aminmirhaj/master-thesis-quantitative-econometrics/blob/main/thesis/full-thesis.pdf">📄 Read the Full Thesis</a>
+**Applied Econometrics · Data Analysis · Country Risk · Quantitative Research**
+
 </p>
