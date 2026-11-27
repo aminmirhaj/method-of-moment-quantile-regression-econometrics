@@ -43,7 +43,7 @@ How are FDI and productive capacity related to resource sustainability across co
 | PR | Political Risk | Control variable |
 | GDP | GDP per capita | Control variable |
 
-## 3. Data Preparation and Econometric Methodology
+## 4. Data Preparation and Econometric Methodology
 
 The following workflow summarizes the main stages of the empirical analysis, from data collection and preparation to econometric estimation and interpretation.
 
@@ -123,11 +123,11 @@ flowchart TD
 ```
 
 
-## 4. Econometric Methodology
+## 5. Econometric Methodology
 
 The empirical strategy combines panel-data diagnostics, convergence analysis, and distributional regression.
 
-### 4.1. Panel Data Diagnostics
+### 5.1. Panel Data Diagnostics
 
 Before estimating the main models, the study applies panel econometric diagnostic procedures to assess the properties of the dataset and the suitability of the estimation strategy.
 
@@ -139,7 +139,7 @@ The diagnostic framework includes:
 - Panel cointegration analysis
 - Additional specification and statistical diagnostics
 
-### 4.2. Club Convergence Analysis
+### 5.2. Club Convergence Analysis
 
 Following the Club Convergence framework of Phillips and Sul (2007), the study investigates whether countries share a common long-run convergence path in resource sustainability.
 
@@ -155,7 +155,7 @@ The final empirical analysis distinguishes two convergence clubs:
 
 The identified groups are subsequently analysed separately to account for cross-country heterogeneity.
 
-### 4.3. Method of Moments Quantile Regression (MMQR)
+### 5.3. Method of Moments Quantile Regression (MMQR)
 
 The study applies the Method of Moments Quantile Regression developed by Machado and Silva (2019).
 
@@ -167,25 +167,26 @@ The analysis examines the following quantiles:
 
 This approach provides a more detailed understanding of how FDI, productive capacity, and country-risk indicators relate to resource consumption at different distributional levels.
 
-## 5. Tools and Software
+## 6. Tools and Software
 
 - **Python** — Data cleaning and preprocessing
 - **R** — Statistical and econometric analysis (Club Convergence) 
 - **Stata** — Panel-data estimation and econometric modelling (Method of Moments Quantile Regression)
 
-## 6. Academic Reference
+## 7. Academic Reference
 
 **Thesis title:**
-Investigating the Impact of Foreign Direct Investment and Productive Capacity on Resource Sustainability: Method of Moments Quantile Regression and Club Convergence.
 
-| | |
+*Investigating the Impact of Foreign Direct Investment and Productive Capacity on Resource Sustainability: Method of Moments Quantile Regression and Club Convergence*
+
+| **Detail** | **Information** |
 |---|---|
 | **Author** | Amin Mirhaj |
 | **Degree** | M.Sc. in Economics |
 | **University** | Ferdowsi University |
 | **Supervisor** | Dr. Narges Salehnia |
 | **Advisor** | Dr. Fariba Osmani |
-| **Published Year** | 2024 |
+| **Year** | 2024 |
 
 📄 **[Read the Full Master's Thesis](thesis/full-thesis.pdf)**
 
