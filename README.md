@@ -13,11 +13,10 @@
 
 </p>
 
----
 
 ## 1. Project Overview
 
-This project is based on my Master's thesis in Economics. It explores how **Foreign Direct Investment (FDI)** and **Productive Capacity (PCI)** relate to **Resource Sustainability**, while taking economic, financial, and political risks into account.
+This project is based on my Master's thesis in Economics. It explores how **Foreign Direct Investment** and **Productive Capacity** relate to **Resource Sustainability**, while taking **Economic Risk**, **Financial Risk**, and **Political Risk** into account.
 
 The analysis covers **111 countries from 2000 to 2021**, using Material Footprint per capita as the main measure of resource use.
 
@@ -92,17 +91,19 @@ This approach provides a more detailed understanding of how FDI, productive capa
 
 ---
 
-### 5. Tools and Software
+## 5. Tools and Software
 
-- **R** — Statistical and econometric analysis
-- **Stata** — Panel-data estimation and econometric modelling
+- **R** — Statistical and econometric analysis (Club Convergence)
+- **Python** — Data cleaning and preprocessing 
+- **Stata** — Panel-data estimation and econometric modelling (Method of Moments Quantile Regression)
 
-Python-related code is included only where documented in the research materials; it is not presented as the primary implementation of the thesis methodology.
+---
 
 ## 6. Academic Reference
 
 **Thesis title:** Investigating the Impact of Foreign Direct Investment and Productive Capacity on Resource Sustainability: Method of Moments Quantile Regression and Club Convergence.
 
+| | |
 |---|---|
 | **Author** | Amin Mirhaj |
 | **Degree** | M.Sc. in Economics |
