@@ -1,13 +1,14 @@
-# The Impact of Foreign Direct Investment and Productive Capacity on Resource Sustainability
+# The Impact of Economic Risk, Financial Risk, and Political Risk on Resource Sustainability
+## Method of Moments Quantile Regression and Club Convergence
 
-## A Cross-Country Panel Econometric Analysis Incorporating Economic, Financial, and Political Risk Factors
+## A Cross-Country Panel Econometric Analysis Incorporating Foreign Direct Investment and Productive Capacity Factors
 
 <p align="center">
 
-![Research](https://img.shields.io/badge/Research-Applied%20Econometrics-blue)
-![Methods](https://img.shields.io/badge/Methods-Panel%20Data%20%7C%20MMQR%20%7C%20Club%20Convergence-green)
-![Coverage](https://img.shields.io/badge/Countries-111-purple)
-![Period](https://img.shields.io/badge/Period-2000--2021-orange)
+![Method1](https://img.shields.io/badge/Method%201-Moment%20Quantile%20Regression-d1242f)
+![Method2](https://img.shields.io/badge/Method%202-Club%20Convergance-1f6feb)
+![Period](https://img.shields.io/badge/Period-2000%E2%80%932021-2ea043)
+![Countries](https://img.shields.io/badge/Countries-111-8250df)
 
 </p>
 
