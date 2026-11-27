@@ -43,6 +43,39 @@ How are FDI and productive capacity related to resource sustainability across co
 | PR | Political Risk | Control variable |
 | GDP | GDP per capita | Control variable |
 
+
+flowchart TD
+    A["Data Collection<br/>2000–2021 · 111 countries"] --> B["Build Country-Year Panel"]
+
+    B --> C["Variables and Data Sources<br/>Material Footprint · GMFD<br/>FDI and GDP per capita · WDI<br/>Productive Capacity · UNCTAD<br/>Economic, Financial and Political Risk · ICRG"]
+
+    C --> D["Club Convergence Analysis<br/>Phillips and Sul (2007)<br/>Log-t test · Recursive clustering · Club merging"]
+
+    D --> E["Final Convergence Groups<br/>Club 1: 67 countries<br/>Club 2: 44 countries"]
+
+    E --> F["Preliminary Econometric Tests"]
+
+    F --> G["F-Limer Test<br/>Panel vs. pooled model"]
+    F --> H["Shapiro–Wilk and<br/>Shapiro–Francia<br/>Normality tests"]
+    F --> I["Pesaran CD Test<br/>Cross-sectional dependence"]
+    F --> J["Pesaran–Yamagata Test<br/>Slope heterogeneity"]
+    F --> K["CIPS Test<br/>Panel unit root"]
+    F --> L["Pedroni Test<br/>Panel cointegration"]
+
+    G --> M["Method of Moments Quantile Regression"]
+    H --> M
+    I --> M
+    J --> M
+    K --> M
+    L --> M
+
+    M --> N["Estimate Effects Across Quantiles<br/>Q25 · Q50 · Q75 · Q90"]
+
+    N --> O["Robustness Check<br/>Alternative specification excluding<br/>financial and political risk controls"]
+
+    O --> P["Interpretation of Results<br/>Compare clubs and quantile effects"]
+
+
 ## 4. Econometric Methodology
 
 The empirical strategy combines panel-data diagnostics, convergence analysis, and distributional regression.
