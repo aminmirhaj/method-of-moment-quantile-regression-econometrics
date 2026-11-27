@@ -43,37 +43,84 @@ How are FDI and productive capacity related to resource sustainability across co
 | PR | Political Risk | Control variable |
 | GDP | GDP per capita | Control variable |
 
+## 3. Data Preparation and Econometric Methodology
 
+The following workflow summarizes the main stages of the empirical analysis, from data collection and preparation to econometric estimation and interpretation.
+
+```mermaid
 flowchart TD
-    A["Data Collection<br/>2000–2021 · 111 countries"] --> B["Build Country-Year Panel"]
+    A["1. Research Scope<br/>111 Countries | 2000–2021"]
+    
+    A --> B["2. Data Collection"]
 
-    B --> C["Variables and Data Sources<br/>Material Footprint · GMFD<br/>FDI and GDP per capita · WDI<br/>Productive Capacity · UNCTAD<br/>Economic, Financial and Political Risk · ICRG"]
+    B --> B1["Global Material Flows Database<br/>Material Footprint per capita"]
+    B --> B2["UNCTAD<br/>Productive Capacity Index"]
+    B --> B3["International Country Risk Guide<br/>Economic, Financial and Political Risk"]
+    B --> B4["World Development Indicators<br/>FDI and GDP per capita"]
 
-    C --> D["Club Convergence Analysis<br/>Phillips and Sul (2007)<br/>Log-t test · Recursive clustering · Club merging"]
+    B1 --> C["3. Data Preparation"]
+    B2 --> C
+    B3 --> C
+    B4 --> C
 
-    D --> E["Final Convergence Groups<br/>Club 1: 67 countries<br/>Club 2: 44 countries"]
+    C --> C1["Country-Level Panel Construction"]
+    C1 --> C2["Variable Definition and Construction"]
+    C2 --> C3["Descriptive Statistics and Exploratory Analysis"]
 
-    E --> F["Preliminary Econometric Tests"]
+    C3 --> D["4. Preliminary Panel Diagnostics"]
 
-    F --> G["F-Limer Test<br/>Panel vs. pooled model"]
-    F --> H["Shapiro–Wilk and<br/>Shapiro–Francia<br/>Normality tests"]
-    F --> I["Pesaran CD Test<br/>Cross-sectional dependence"]
-    F --> J["Pesaran–Yamagata Test<br/>Slope heterogeneity"]
-    F --> K["CIPS Test<br/>Panel unit root"]
-    F --> L["Pedroni Test<br/>Panel cointegration"]
+    D --> D1["F-Limer Test<br/>Panel Model Selection"]
+    D --> D2["Shapiro–Wilk and<br/>Shapiro–Francia Tests<br/>Normality"]
+    D --> D3["Pesaran CD Test<br/>Cross-Sectional Dependence"]
+    D --> D4["Pesaran–Yamagata Test<br/>Slope Heterogeneity"]
+    D --> D5["Pesaran CIPS Test<br/>Panel Unit Root"]
+    D --> D6["Pedroni Test<br/>Panel Cointegration"]
 
-    G --> M["Method of Moments Quantile Regression"]
-    H --> M
-    I --> M
-    J --> M
-    K --> M
-    L --> M
+    D1 --> E["5. Club Convergence Analysis"]
+    D2 --> E
+    D3 --> E
+    D4 --> E
+    D5 --> E
+    D6 --> E
 
-    M --> N["Estimate Effects Across Quantiles<br/>Q25 · Q50 · Q75 · Q90"]
+    E --> E1["Log Transformation of<br/>Material Footprint"]
+    E1 --> E2["Hodrick–Prescott Filter<br/>Remove Short-Run Fluctuations"]
+    E2 --> E3["Phillips–Sul Log-t Test"]
+    E3 --> E4["Recursive Clustering<br/>and Club Merging"]
 
-    N --> O["Robustness Check<br/>Alternative specification excluding<br/>financial and political risk controls"]
+    E4 --> F["6. Final Convergence Groups"]
 
-    O --> P["Interpretation of Results<br/>Compare clubs and quantile effects"]
+    F --> F1["Club 1<br/>67 Countries"]
+    F --> F2["Club 2<br/>44 Countries"]
+
+    F1 --> G["7. Club-Specific Econometric Analysis"]
+    F2 --> G
+
+    G --> G1["Dependent Variable<br/>Material Footprint per capita"]
+    G1 --> G2["Main Explanatory Variables<br/>FDI and Productive Capacity"]
+    G2 --> G3["Control Variables<br/>Economic, Financial and Political Risk<br/>GDP per capita"]
+
+    G3 --> H["8. Method of Moments<br/>Quantile Regression (MMQR)"]
+
+    H --> H1["Q25"]
+    H --> H2["Q50"]
+    H --> H3["Q75"]
+    H --> H4["Q90"]
+
+    H1 --> I["9. Robustness Analysis"]
+    H2 --> I
+    H3 --> I
+    H4 --> I
+
+    I --> I1["Alternative Specification<br/>Excluding Financial and Political Risk Controls"]
+
+    I1 --> J["10. Results and Interpretation"]
+
+    J --> J1["Club-Specific Results"]
+    J --> J2["Quantile-Specific Effects"]
+    J --> J3["Tables and Visualizations"]
+    J --> J4["Economic and Policy Implications"]
+```
 
 
 ## 4. Econometric Methodology
