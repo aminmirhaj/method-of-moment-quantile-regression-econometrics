@@ -23,6 +23,10 @@ ENV/
 
 # Raw data
 data/raw/*
+!data/raw/Foreign Direct Investment.csv
+!data/raw/GDP per capita.csv
+!data/raw/Material Footprint per capita.csv
+!data/raw/Productive Capacity Index.csv
 
 # Processed data
 data/processed/*
