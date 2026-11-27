@@ -1,8 +1,8 @@
 # The Impact of Economic Risk, Financial Risk, and Political Risk on Resource Sustainability
 
-### Method of Moments Quantile Regression and Club Convergence
+- Method of Moments Quantile Regression and Club Convergence
 
-#### A Cross-Country Panel Econometric Analysis Incorporating Foreign Direct Investment and Productive Capacity Factors
+- A Cross-Country Panel Econometric Analysis Incorporating Foreign Direct Investment and Productive Capacity Factors
 
 <p align="center">
 
@@ -109,19 +109,16 @@ Python-related code is included only where documented in the research materials;
 
 **Thesis title:** Investigating the Impact of Foreign Direct Investment and Productive Capacity on Resource Sustainability: Method of Moments Quantile Regression and Club Convergence.
 
-**Degree:** M.Sc. in Economics  
-**University:** Ferdowsi University  
-**Year:** 2024
+| | |
+|---|---|
+| **Author** | Amin Mirhaj |
+| **Degree** | M.Sc. in Economics |
+| **University** | Ferdowsi University |
+| **Supervisor** | Dr. Narges Salehnia |
+| **Advisor** | Dr. Fariba Osmani |
+| **Published Year** | 2024 |
 
 📄 **[Read the Full Master's Thesis](thesis/full-thesis.pdf)**
-
----
-
-## 10. Research Scope and Limitations
-
-This project is an applied cross-country econometric study. Its objective is to estimate and interpret relationships between macroeconomic variables, country-risk indicators, and resource consumption.
-
-The empirical results should be interpreted within the scope of the dataset, model specifications, and econometric methods used in the thesis. The analysis is not a credit-risk scoring system, a causal machine-learning model, or a predictive risk classification system.
 
 ---
 
