@@ -18,6 +18,12 @@ The datasets were collected from the following sources:
 | PR | Political Risk | International Country Risk Guide (ICRG) |
 | GDP | GDP per capita | World Development Indicators (WDI) |
 
+## Data Availability
+
+The ICRG dataset is commercially licensed and requires a paid subscription. Therefore, the original ICRG data is not included in this repository due to licensing restrictions.
+
+Researchers interested in reproducing the analysis must obtain access to the ICRG data independently.
+
 ## Notes
 
 - `raw/` contains the original source datasets.
