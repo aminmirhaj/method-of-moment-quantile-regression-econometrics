@@ -17,26 +17,20 @@
 
 ## 1. Project Overview
 
-This repository presents my Master's thesis research in Economics, investigating the relationship between **Foreign Direct Investment (FDI)**, **Productive Capacity (PCI)**, and **Resource Sustainability**, while accounting for **Economic Risk, Financial Risk, and Political Risk**.
+This project is based on my Master's thesis in Economics. It explores how **Foreign Direct Investment (FDI)** and **Productive Capacity (PCI)** relate to **Resource Sustainability**, while taking economic, financial, and political risks into account.
 
-The empirical analysis covers **111 countries over the period 2000–2021**. Material Footprint per capita is used as the main indicator of resource use and as the empirical measure of resource sustainability.
+The analysis covers **111 countries from 2000 to 2021**, using Material Footprint per capita as the main measure of resource use.
 
-The study applies advanced panel econometric techniques to investigate cross-country differences, long-run convergence patterns, and heterogeneous effects across the distribution of material footprint.
-
-The project demonstrates practical experience in:
-
-- Applied econometrics and quantitative economic research
-- Panel data analysis and econometric diagnostics
-- Data collection, cleaning, integration, and variable construction
-- Country-risk indicators and macroeconomic analysis
-- Distributional econometric modelling
-- Statistical interpretation and research communication
+The project involves:
+- Applied econometrics and panel data analysis
+- Data collection, cleaning, and analysis
+- Econometric testing and diagnostics
+- Country-risk and macroeconomic analysis
+- Quantitative research and interpretation
 
 ## 2. Research Question
 
-**How do Foreign Direct Investment and Productive Capacity affect Resource Sustainability, and how do these relationships vary across countries with different convergence patterns and levels of material footprint, after accounting for economic, financial, and political risks?**
-
-The research examines whether the relationships between investment, productive capacity, country risk, and resource consumption are homogeneous across countries or differ according to their long-run convergence patterns and distributional characteristics.
+**How are FDI and productive capacity related to resource sustainability across countries, and do these relationships differ depending on country-risk levels, convergence patterns, and material footprint?**
 
 ## 3. Research Variables
 
@@ -109,7 +103,6 @@ Python-related code is included only where documented in the research materials;
 
 **Thesis title:** Investigating the Impact of Foreign Direct Investment and Productive Capacity on Resource Sustainability: Method of Moments Quantile Regression and Club Convergence.
 
-| | |
 |---|---|
 | **Author** | Amin Mirhaj |
 | **Degree** | M.Sc. in Economics |
