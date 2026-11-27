@@ -181,6 +181,7 @@ This approach provides a more detailed understanding of how FDI, productive capa
 
 *Investigating the Impact of Foreign Direct Investment and Productive Capacity on Resource Sustainability: Method of Moments Quantile Regression and Club Convergence*
 
+|---|---:|
 | **Author** | Amin Mirhaj |
 | **Degree** | M.Sc. in Economics |
 | **University** | Ferdowsi University |
