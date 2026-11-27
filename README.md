@@ -27,7 +27,7 @@ The project involves:
 - Country-risk and macroeconomic analysis
 - Quantitative research and interpretation
 
-📄 **[Read the Full Master's Thesis](thesis/full-thesis.pdf)**
+📄 **[Read the Full Master's Thesis](thesis/thesis.pdf)**
 
 ## 2. Research Question
 
@@ -190,7 +190,7 @@ This approach provides a more detailed understanding of how FDI, productive capa
 | **Advisor** | Dr. Fariba Osmani |
 | **Year** | 2024 |
 
-📄 **[Read the Full Master's Thesis](thesis/full-thesis.pdf)**
+📄 **[Read the Full Master's Thesis](thesis/thesis.pdf)**
 
 ## Keywords
 
@@ -199,5 +199,5 @@ This approach provides a more detailed understanding of how FDI, productive capa
 ---
 
 <p align="center">
-  <em>https://github.com/aminmirhaj/master-thesis-quantitative-econometrics</em>
+  <em>https://github.com/aminmirhaj/method-of-moment-quantile-regression-econometrics</em>
 </p>
