@@ -29,7 +29,7 @@ The project involves:
 
 ## 2. Research Question
 
-**How are FDI and productive capacity related to resource sustainability across countries, and do these relationships differ depending on country-risk levels, convergence patterns, and material footprint?**
+How are FDI and productive capacity related to resource sustainability across countries, and do these relationships differ depending on country-risk levels, convergence patterns, and material footprint?
 
 ## 3. Research Variables
 
@@ -42,8 +42,6 @@ The project involves:
 | FR | Financial Risk | Control variable |
 | PR | Political Risk | Control variable |
 | GDP | GDP per capita | Control variable |
-
-**Risk analysis dimension:** Economic, financial, and political risk indicators are incorporated to account for differences in national economic and institutional conditions when estimating the relationships of interest.
 
 ## 4. Econometric Methodology
 
@@ -89,19 +87,16 @@ The analysis examines the following quantiles:
 
 This approach provides a more detailed understanding of how FDI, productive capacity, and country-risk indicators relate to resource consumption at different distributional levels.
 
----
-
 ## 5. Tools and Software
 
-- **R** — Statistical and econometric analysis (Club Convergence)
-- **Python** — Data cleaning and preprocessing 
+- **Python** — Data cleaning and preprocessing
+- **R** — Statistical and econometric analysis (Club Convergence) 
 - **Stata** — Panel-data estimation and econometric modelling (Method of Moments Quantile Regression)
-
----
 
 ## 6. Academic Reference
 
-**Thesis title:** Investigating the Impact of Foreign Direct Investment and Productive Capacity on Resource Sustainability: Method of Moments Quantile Regression and Club Convergence.
+**Thesis title:**
+Investigating the Impact of Foreign Direct Investment and Productive Capacity on Resource Sustainability: Method of Moments Quantile Regression and Club Convergence.
 
 | | |
 |---|---|
@@ -114,8 +109,6 @@ This approach provides a more detailed understanding of how FDI, productive capa
 
 📄 **[Read the Full Master's Thesis](thesis/full-thesis.pdf)**
 
----
-
 # 🔑 Keywords
 
 `Resource Sustainability` · `Foreign Direct Investment` · `Productive Capacity` · `Economic Risk` · `Financial Risk` · `Political Risk` · `Panel Data` · `Club Convergence` · `Method of Moments Quantile Regression`
@@ -125,6 +118,3 @@ This approach provides a more detailed understanding of how FDI, productive capa
 <p align="center">
   <em>https://github.com/aminmirhaj/master-thesis-quantitative-econometrics</em>
 </p>
-
-<p align="center">
-  <a href="https://github.com/aminmirhaj/master-thesis-quantitative-econometrics/blob/main/thesis/full-thesis.pdf">📄 Read the Full Thesis</a>
