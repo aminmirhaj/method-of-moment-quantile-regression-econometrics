@@ -1,13 +1,11 @@
 # Table of Contents
 
-*Chapter 1 — Introduction and Research Overview*  
-*Chapter 2 — Theoretical Background and Literature Review*  
-*Chapter 3 — Research Methodology*  
-*Chapter 4 — Empirical Analysis and Findings*  
-*Chapter 5 — Conclusions and Recommendations*  
-*References and Appendix*
-
----
+- Chapter 1 — Introduction and Research Overview
+- Chapter 2 — Theoretical Background and Literature Review
+- Chapter 3 — Research Methodology
+- Chapter 4 — Empirical Analysis and Findings
+- Chapter 5 — Conclusions and Recommendations
+- References and Appendix
 
 ## Chapter 1 — Introduction and Research Overview
 
@@ -24,8 +22,6 @@
 | 1.6.3 | Data Collection Methods and Instruments | 11 |
 | 1.6.4 | Data Analysis Methods | 11 |
 | 1.7 | Research Applications | 12 |
-
----
 
 ## Chapter 2 — Theoretical Background and Literature Review
 
@@ -45,8 +41,6 @@
 | 2.3.1 | International Studies | 27 |
 | 2.3.2 | Domestic Studies | 34 |
 | 2.4 | Chapter Summary | 35 |
-
----
 
 ## Chapter 3 — Research Methodology
 
@@ -69,8 +63,6 @@
 | 3.3.2 | Club Convergence Approach | 44 |
 | 3.3.3 | Method of Moment Quantile Regression | 47 |
 | 3.4 | Chapter Summary | 48 |
-
----
 
 ## Chapter 4 — Empirical Analysis and Findings
 
@@ -99,8 +91,6 @@
 | 4.6.3.1 | Robustness Test Results | 72 |
 | 4.7 | Chapter Summary | 73 |
 
----
-
 ## Chapter 5 — Conclusions and Recommendations
 
 | No. | Section Title | Page |
@@ -111,8 +101,6 @@
 | 5.4 | Recommendations | 82 |
 | 5.4.1 | Policy Recommendations | 82 |
 | 5.4.2 | Recommendations for Future Research | 83 |
-
----
 
 ## References and Appendix
 
