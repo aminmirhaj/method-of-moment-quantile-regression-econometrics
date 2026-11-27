@@ -1,4 +1,4 @@
-# Table of Contents
+# Thesis Table of Contents
 
 - Chapter 1 — Introduction and Research Overview
 - Chapter 2 — Theoretical Background and Literature Review
