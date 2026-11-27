@@ -1,4 +1,5 @@
 # The Impact of Economic Risk, Financial Risk, and Political Risk on Resource Sustainability
+
 ## Method of Moments Quantile Regression and Club Convergence
 
 ## A Cross-Country Panel Econometric Analysis Incorporating Foreign Direct Investment and Productive Capacity Factors
