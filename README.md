@@ -1,8 +1,8 @@
 # The Impact of Economic Risk, Financial Risk, and Political Risk on Resource Sustainability
 
-## Method of Moments Quantile Regression and Club Convergence
+### Method of Moments Quantile Regression and Club Convergence
 
-## A Cross-Country Panel Econometric Analysis Incorporating Foreign Direct Investment and Productive Capacity Factors
+#### A Cross-Country Panel Econometric Analysis Incorporating Foreign Direct Investment and Productive Capacity Factors
 
 <p align="center">
 
@@ -52,24 +52,11 @@ The research examines whether the relationships between investment, productive c
 
 **Risk analysis dimension:** Economic, financial, and political risk indicators are incorporated to account for differences in national economic and institutional conditions when estimating the relationships of interest.
 
-## 4. Data Sources
-
-The empirical dataset combines information from the following international databases:
-
-| Data source | Main information |
-|---|---|
-| Global Material Flows Database (GMFD) | Material Footprint |
-| UNCTAD | Foreign Direct Investment and Productive Capacity |
-| International Country Risk Guide (ICRG) | Economic, Financial, and Political Risk |
-| World Development Indicators (WDI) | GDP and macroeconomic indicators |
-
-The analysis uses country-level panel data covering 111 countries from 2000 to 2021.
-
-## 5. Econometric Methodology
+## 4. Econometric Methodology
 
 The empirical strategy combines panel-data diagnostics, convergence analysis, and distributional regression.
 
-### 5.1. Panel Data Diagnostics
+### 4.1. Panel Data Diagnostics
 
 Before estimating the main models, the study applies panel econometric diagnostic procedures to assess the properties of the dataset and the suitability of the estimation strategy.
 
@@ -81,7 +68,7 @@ The diagnostic framework includes:
 - Panel cointegration analysis
 - Additional specification and statistical diagnostics
 
-### 5.2. Club Convergence Analysis
+### 4.2. Club Convergence Analysis
 
 Following the Club Convergence framework of Phillips and Sul (2007), the study investigates whether countries share a common long-run convergence path in resource sustainability.
 
@@ -97,7 +84,7 @@ The final empirical analysis distinguishes two convergence clubs:
 
 The identified groups are subsequently analysed separately to account for cross-country heterogeneity.
 
-### 5.3. Method of Moments Quantile Regression (MMQR)
+### 4.3. Method of Moments Quantile Regression (MMQR)
 
 The study applies the Method of Moments Quantile Regression developed by Machado and Silva (2019).
 
@@ -109,59 +96,16 @@ The analysis examines the following quantiles:
 
 This approach provides a more detailed understanding of how FDI, productive capacity, and country-risk indicators relate to resource consumption at different distributional levels.
 
-### 5.4. Robustness Analysis
-
-The research also includes a robustness exercise examining the stability of the estimated relationships when financial and political risk controls are excluded from the specification.
-
 ---
 
-## 6. Analytical Workflow
-
-The empirical research follows a structured analytical process:
-
-1. Data collection from international databases.
-2. Data cleaning, integration, and preparation of the country-level panel.
-3. Variable definition and construction.
-4. Exploratory and descriptive analysis.
-5. Panel-data diagnostic testing.
-6. Club Convergence estimation and country grouping.
-7. Club-specific MMQR estimation.
-8. Robustness analysis.
-9. Results interpretation and visualization.
-10. Economic and policy implications.
-
-## 7. Main Empirical Findings
-
-The main findings reported in the thesis include:
-
-- **Foreign Direct Investment:** Positively and significantly associated with Material Footprint per capita in both convergence clubs.
-- **Productive Capacity:** Positively associated with Material Footprint per capita in both clubs, indicating a relationship between productive capacity and higher material resource use.
-- **Country Risk:** Economic, financial, and political risk indicators are incorporated as controls to account for differences in country-level conditions.
-- **Cross-country heterogeneity:** The estimated relationships differ between the two convergence clubs and across the conditional distribution.
-
-These findings highlight the importance of considering country heterogeneity and distributional differences when studying the economic determinants of resource consumption.
-
-## 8. Technical Skills Demonstrated
-
-This project demonstrates several technical competencies relevant to data science, data analysis, and quantitative research.
-
-| Area | Demonstrated competencies |
-|---|---|
-| Data Analysis | Data preparation, cleaning, integration, variable construction, descriptive analysis |
-| Econometrics | Panel data modelling, MMQR, Club Convergence, robustness analysis |
-| Risk Analysis | Economic risk, financial risk, political risk indicators, country-level risk controls |
-| Statistical Analysis | Cross-sectional dependence, slope heterogeneity, stationarity, cointegration |
-| Quantitative Research | Research design, hypothesis testing, model interpretation, empirical reporting |
-| Data Visualization | Presentation and interpretation of empirical results |
-
-### Tools and Software
+### 5. Tools and Software
 
 - **R** — Statistical and econometric analysis
 - **Stata** — Panel-data estimation and econometric modelling
 
 Python-related code is included only where documented in the research materials; it is not presented as the primary implementation of the thesis methodology.
 
-## 9. Academic Reference
+## 6. Academic Reference
 
 **Thesis title:** Investigating the Impact of Foreign Direct Investment and Productive Capacity on Resource Sustainability: Method of Moments Quantile Regression and Club Convergence.
 
@@ -181,8 +125,15 @@ The empirical results should be interpreted within the scope of the dataset, mod
 
 ---
 
+# 🔑 Keywords
+
+`Resource Sustainability` · `Foreign Direct Investment` · `Productive Capacity` · `Economic Risk` · `Financial Risk` · `Political Risk` · `Panel Data` · `Club Convergence` · `Method of Moments Quantile Regression`
+
+---
+
 <p align="center">
-
-**Applied Econometrics · Data Analysis · Country Risk · Quantitative Research**
-
+  <em>https://github.com/aminmirhaj/master-thesis-quantitative-econometrics</em>
 </p>
+
+<p align="center">
+  <a href="https://github.com/aminmirhaj/master-thesis-quantitative-econometrics/blob/main/thesis/full-thesis.pdf">📄 Read the Full Thesis</a>
