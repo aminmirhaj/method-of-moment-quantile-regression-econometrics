@@ -8,12 +8,15 @@ The study examines the relationship between Foreign Direct Investment (FDI), Pro
 
 The datasets were collected from the following sources:
 
-| Data Source | Variables |
-|---|---|
-| Global Material Flows Database (GMFD) | Material Footprint per capita |
-| UNCTAD | Productive Capacity Index (PCI) |
-| International Country Risk Guide (ICRG) | Economic, Financial, and Political Risk |
-| World Development Indicators (WDI) | Foreign Direct Investment (FDI) and GDP per capita |
+| Variable | Description | Data Source |
+|---|---|---|
+| MFP | Material Footprint per capita | Global Material Flows Database (GMFD) |
+| FDI | Foreign Direct Investment | World Development Indicators (WDI) |
+| PCI | Productive Capacity Index | United Nations Conference on Trade and Development (UNCTAD) |
+| ER | Economic Risk | International Country Risk Guide (ICRG) |
+| FR | Financial Risk | International Country Risk Guide (ICRG) |
+| PR | Political Risk | International Country Risk Guide (ICRG) |
+| GDP | GDP per capita | World Development Indicators (WDI) |
 
 ## Notes
 
