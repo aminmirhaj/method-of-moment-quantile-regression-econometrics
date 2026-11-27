@@ -190,7 +190,7 @@ This approach provides a more detailed understanding of how FDI, productive capa
 
 📄 **[Read the Full Master's Thesis](thesis/full-thesis.pdf)**
 
-# 🔑 Keywords
+## Keywords
 
 `Resource Sustainability` · `Foreign Direct Investment` · `Productive Capacity` · `Economic Risk` · `Financial Risk` · `Political Risk` · `Panel Data` · `Club Convergence` · `Method of Moments Quantile Regression`
 
