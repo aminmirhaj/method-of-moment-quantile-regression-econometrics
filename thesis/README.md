@@ -1,9 +1,10 @@
 # Table of Contents
-*Chapter 1 — Introduction and Research Overview*
-*Chapter 2 — Theoretical Background and Literature Review*
-*Chapter 3 — Research Methodology*
-*Chapter 4 — Empirical Analysis and Findings*
-*Chapter 5 — Conclusions and Recommendations*
+
+*Chapter 1 — Introduction and Research Overview*  
+*Chapter 2 — Theoretical Background and Literature Review*  
+*Chapter 3 — Research Methodology*  
+*Chapter 4 — Empirical Analysis and Findings*  
+*Chapter 5 — Conclusions and Recommendations*  
 *References and Appendix*
 
 ---
